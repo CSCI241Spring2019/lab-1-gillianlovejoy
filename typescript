@@ -1,0 +1,419 @@
+Script started on Wed Apr 17 19:29:28 2019
+[?1034hbash-3.2$ mkdir csci241
+bash-3.2$ cd csci241
+bash-3.2$ ls
+bash-3.2$ git clone https://github.com/CSCI241Spring2019/lab-1-gillianlovejoy.gi t
+bash-3.2$ pwd
+/Users/gillianlovejoy/csci241
+bash-3.2$ open .
+bash-3.2$ open .[3Ppwdgit clone https://github.com/CSCI241Spring2019/lab-1-gillianlovejoy
+Cloning into 'lab-1-gillianlovejoy'...
+remote: Enumerating objects: 8, done.[K
+remote: Counting objects:  12% (1/8)   [Kremote: Counting objects:  25% (2/8)   [Kremote: Counting objects:  37% (3/8)   [Kremote: Counting objects:  50% (4/8)   [Kremote: Counting objects:  62% (5/8)   [Kremote: Counting objects:  75% (6/8)   [Kremote: Counting objects:  87% (7/8)   [Kremote: Counting objects: 100% (8/8)   [Kremote: Counting objects: 100% (8/8), done.[K
+remote: Compressing objects:  25% (1/4)   [Kremote: Compressing objects:  50% (2/4)   [Kremote: Compressing objects:  75% (3/4)   [Kremote: Compressing objects: 100% (4/4)   [Kremote: Compressing objects: 100% (4/4), done.[K
+remote: Total 8 (delta 0), reused 8 (delta 0), pack-reused 0[K
+Unpacking objects:  12% (1/8)   Unpacking objects:  25% (2/8)   Unpacking objects:  37% (3/8)   Unpacking objects:  50% (4/8)   Unpacking objects:  62% (5/8)   Unpacking objects:  75% (6/8)   Unpacking objects:  87% (7/8)   Unpacking objects: 100% (8/8)   Unpacking objects: 100% (8/8), done.
+bash-3.2$ cd lab-1-gillianlovejoy/
+bash-3.2$ pwd
+/Users/gillianlovejoy/csci241/lab-1-gillianlovejoy
+bash-3.2$ git status/s[K[K-s[K[K -s
+bash-3.2$ git config --glov[Kbal user.name "G[Kgillianlovejog[Ky"
+bash-3.2$ git config --global user.email lovejog@wwu.edu
+bash-3.2$ touch writeup.te[Kxt
+bash-3.2$ git add writeup.txt
+bash-3.2$ git commit -m "Added empty writeup"
+[master 5223597] Added empty writeup
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 writeup.txt
+bash-3.2$ git push
+Username for 'https://github.com': gillianlovejoy
+Password for 'https://gillianlovejoy@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 315 bytes | 315.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-gillianlovejoy
+   1523c09..5223597  master -> master
+bash-3.2$ open writeup.t[K[K[K[K[K[K[K[K[Kwriteup.txt 
+bash-3.2$ git status -s
+ [31mM[m writeup.txt
+bash-3.2$ git add writeup.txt 
+bash-3.2$ git commit -m "Added part 1 to writeup"[1@([1@n[1@a[1@m[1@e[1@s[1@)[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[master bb531dc] Added part 1 (names) to writeup
+ 1 file changed, 1 insertion(+)
+bash-3.2$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+bash-3.2$ git status -s
+bash-3.2$ open writeup.txt 
+bash-3.2$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ git add writeup.txt [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit commit -m "added part 2 (hobby:[K)"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit
+bash-3.2$ git commit -m "added part 2 (hobby)"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@a[1P[C[C[1P[C[1P[1@t[1@ [C[1@a
+[master d8e7daf] added part 2 (hobby)
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+bash-3.2$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+bash-3.2$ git push
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  16% (1/6)   Writing objects:  33% (2/6)   Writing objects:  50% (3/6)   Writing objects:  66% (4/6)   Writing objects:  83% (5/6)   Writing objects: 100% (6/6)   Writing objects: 100% (6/6), 549 bytes | 549.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-gillianlovejoy
+   5223597..d8e7daf  master -> master
+bash-3.2$ touch wri[K[K[Kusername.txt
+bash-3.2$ open username.txt 
+bash-3.2$ git add username.txt 
+bash-3.2$ git commit[K[K[K[K[K[K[K[K[K[Kgit commin[Kt -m "added u[Kusername"
+[master e88fa88] added username
+ 1 file changed, 1 insertion(+)
+ create mode 100644 username.txt
+bash-3.2$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 372 bytes | 372.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-gillianlovejoy
+   d8e7daf..e88fa88  master -> master
+bash-3.2$ open username.txt 
+bash-3.2$ git checkout username.txt 
+bash-3.2$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+bash-3.2$ git statuscheckout username.txt [C[C[C[C[C[C[C[C[C[C[8Popen[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+bash-3.2$ git blame username.txt 
+[?1h=e88fa886 (gillianlovejoy 2019-04-17 20:03:59 -0700 1) Gillian Lovejoy,lovejog,gi[m llianlovejoy[m
+
+bash-3.2$ git blame writeup.txt [1P[C[1@l
+[?1h=d8e7dafa (gillianlovejoy 2019-04-17 19:58:00 -0700 1) 1) Gillian Lovejoy[m
+d8e7dafa (gillianlovejoy 2019-04-17 19:58:00 -0700 2) 2) Hobby: sleeping[m
+[K[?1l>bash-3.2$ touch toDelete.txt
+bash-3.2$ open toDelete.txt 
+bash-3.2$ git add toDelete.txt 
+bash-3.2$ git rm toDelete.txt 
+error: the following file has changes staged in the index:
+    toDelete.txt
+(use --cached to keep the file, or -f to force removal)
+bash-3.2$ -[Kgit rm -f toDelete.txt 
+rm 'toDelete.txt'
+bash-3.2$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+bash-3.2$ touch to [KREs[K[Keset.txt
+bash-3.2$ open toReset.txt 
+bash-3.2$ git reset -hard HEAD[C[1@-[C
+HEAD is now at e88fa88 added username
+bash-3.2$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mtoReset.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+bash-3.2$ git commit -[K[K[K[K[K[K[K[K[K[K[K[Kgit add toReset.txt 
+bash-3.2$ git commit -[K-,[Km "reset file"
+[master 95060c4] reset file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 toReset.txt
+bash-3.2$ git commit -m "reset file"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Padd toReset.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pstatusreset --hard HEAD
+HEAD is now at 95060c4 reset file
+bash-3.2$ git log
+[?1h=[33mcommit 95060c413db66b9a7f5e5c44931ac4eb6b38a88f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: gillianlovejoy <lovejog@wwu.edu>[m
+Date:   Wed Apr 17 20:17:39 2019 -0700[m
+[m
+    reset file[m
+[m
+[33mcommit e88fa886d85d26e1aa7c9386f920945d44c328f6[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: gillianlovejoy <lovejog@wwu.edu>[m
+Date:   Wed Apr 17 20:03:59 2019 -0700[m
+[m
+    added username[m
+[m
+[33mcommit d8e7dafa7d9c181c7c77b306cef365c426cab981[m[m
+Author: gillianlovejoy <lovejog@wwu.edu>[m
+Date:   Wed Apr 17 19:58:00 2019 -0700[m
+[m
+    added part 2 (hobby)[m
+[m
+[33mcommit bb531dc461af88d8695dc7e6b80a6c50360c167e[m[m
+Author: gillianlovejoy <lovejog@wwu.edu>[m
+Date:   Wed Apr 17 19:53:08 2019 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+:[K[K[m
+:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K[33mcommit 5223597fe67d31a3648aef95cbe0102a2d9dd845[m[m
+:[K[KAuthor: gillianlovejoy <lovejog@wwu.edu>[m
+:[K[KDate:   Wed Apr 17 19:48:18 2019 -0700[m
+:[K[K[m
+:[K[K    Added empty writeup[m
+:[K[K[m
+:[K[K[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+:[K[KAuthor: majeskn <majeskn@wwu.edu>[m
+:[K[KDate:   Mon Jan 7 20:49:19 2019 -0800[m
+:[K[K[m
+:[K[K    Adding setup for gradle[m
+:[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[K^J^J[K[7m(END)[27m[K[K[?1l>bash-3.2$ git reset --hard [[K{@{[Cu}
+HEAD is now at e88fa88 added username
+bash-3.2$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+bash-3.2$ touch toRename.txt
+bash-3.2$ git add toRename.txt 
+bash-3.2$ git mv toRename.txt [K[K[K[K[K[K[K[K[K[K[K[K[K
+bash-3.2$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   toRename.txt[m
+
+bash-3.2$ git mv toRename.txt newNAme[K[K[Kame.txt
+bash-3.2$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   newName.txt[m
+
+bash-3.2$ git difff[K
+[?1h=[K[?1l>bash-3.2$ git diff newName.txt 
+[?1h=[K[?1l>bash-3.2$ open newName.txt 
+bash-3.2$ git add newName.txt 
+bash-3.2$ co[K[Kgit commit ne[K[K-m "new name"
+[master ae14d3c] new name
+ 1 file changed, 1 insertion(+)
+ create mode 100644 newName.txt
+bash-3.2$ pit[K[K[Kgit push[K[K[K[K[K[K[K[Kopen newName.txt 
+bash-3.2$ git diff newName.txt 
+[?1h=[1mdiff --git a/newName.txt b/newName.txt[m[m
+[1mindex bc86384..61dd3c2 100644[m[m
+[1m--- a/newName.txt[m[m
+[1m+++ b/newName.txt[m[m
+[36m@@ -1 +1,2 @@[m[m
+[31m-let's commit this[m[m
+\ No newline at end of file[m[m
+[32m+[m[32mlet's commit this[m[m
+[32m+[m[32mlet's edit this[m[m
+\ No newline at end of file[m[m
+[K[?1l>bash-3.2$ git rm newName.txt [C[1@-[1@f[1@ 
+rm 'newName.txt'
+bash-3.2$ git chechout -b [1@k[C[C[C[1P[C[1P[1@k[C[C[C[C[C[C[C q u e s t i o n 3 
+D	newName.txt
+Switched to a new branch 'question3'
+bash-3.2$ git push[K[K[K[Kcommit -m "delete new [KName"
+[question3 12888f5] delete newName
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 newName.txt
+bash-3.2$ git push
+fatal: The current branch question3 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin question3
+
+bash-3.2$ g[Kopen writeup.txt 
+bash-3.2$ git commit -am " [Ka[Kadded question 3)[K"
+[question3 07fe9b2] added question 3
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+bash-3.2$ git commit -am "added question 3"[C[C[C[C[C[C[C[C[C[C[16Popen writeup.txt [C[C[C[C[C[C[C[C[C[C[9Pgit push[K[K[K[K[K[K[K[Kgit push --set-upstream origin question3
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects:  16% (1/6)   Compressing objects:  33% (2/6)   Compressing objects:  50% (3/6)   Compressing objects:  66% (4/6)   Compressing objects:  83% (5/6)   Compressing objects: 100% (6/6)   Compressing objects: 100% (6/6), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 738 bytes | 738.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+remote: 
+remote: Create a pull request for 'question3' on GitHub by visiting:[K
+remote:      https://github.com/CSCI241Spring2019/lab-1-gillianlovejoy/pull/new/question3[K
+remote: 
+To https://github.com/CSCI241Spring2019/lab-1-gillianlovejoy
+ * [new branch]      question3 -> question3
+Branch 'question3' set up to track remote branch 'question3' from 'origin'.
+bash-3.2$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+bash-3.2$ git branch
+[?1h=* [32mmaster[m[m
+  question3[m[m
+[K[?1l>bash-3.2$ git merge question3
+Updating ae14d3c..07fe9b2
+Fast-forward
+ newName.txt | 1 [31m-[m
+ writeup.txt | 3 [32m++[m[31m-[m
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+ delete mode 100644 newName.txt
+bash-3.2$ git push
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-gillianlovejoy
+   e88fa88..07fe9b2  master -> master
+bash-3.2$ git branch -d question3
+Deleted branch question3 (was 07fe9b2).
+bash-3.2$ git branch
+[?1h=* [32mmaster[m[m
+
+bash-3.2$ gradle build
+
+Welcome to Gradle 5.4!
+
+Here are the highlights of this release:
+ - Run builds with JDK12
+ - New API for Incremental Tasks
+ - Updates to native projects, including Swift 5 support
+
+For more details see https://docs.gradle.org/5.4/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon > Connecting to Daemon[m[40D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;1m-------------> 0% CONFIGURING [1s][m[0K[35D[1B[1m> Loading projects[m[0K[18D[1B[1A> IDLE[0K[6D[1B[1A[1m> root project[m[14D[1B[1A[1m> root project > Compiling /Users/gillianlovejoy/csci241/lab-1-gillianlovejoy/b[m[79D[1B[2A[1m<[0;1m-------------> 0% CONFIGURING [2s][m[35D[2B[1A[1m> root project[m[0K[14D[1B[2A[1m<[0;1m-------------> 0% CONFIGURING [3s][m[35D[2B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [3s][m[37D[1B> IDLE[0K[6D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [3s][m[0K[33D[2B[1A[1m> :compileJava[m[14D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [4s][m[33D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [5s][m[33D[2B[2A[1m<[0;32;1m==[0;39;1m-----------> 21% EXECUTING [5s][m[34D[1B[1m> :jar[m[0K[6D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [5s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [5s][m[34D[1B[1m> :distZip[m[0K[10D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 10s
+5 actionable tasks: 5 executed
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hbash-3.2$ gradle run
+
+
+[2A[1m<[0;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [0s][m[0K[33D[1B[1m> :compileJava > Resolve dependencies of :annotationProcessor[m[61D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello World!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 1s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hbash-3.2$ f[Kgradle run --args="241"
+
+[1A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [0s][m[37D[1B
+[2A[1m<[0;1m-------------> 0% EXECUTING [0s][m[0K[33D[1B[1m> :compileJava[m[14D[1B[2A[0K
+[31;1m> Task :compileJava[0;39m[31m FAILED[39m
+/Users/gillianlovejoy/csci241/lab-1-gillianlovejoy/src/main/java/lab1/Hello.java:5: error: no suitable method found for println(String,String)
+        System.out.println("Hello %s!", args[0]);
+                  ^
+    method PrintStream.println() is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(boolean) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(char) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(int) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(long) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(float) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(double) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(char[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(String) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(Object) is not applicable
+      (actual and formal argument lists differ in length)
+1 error
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+[33m> [39mCompilation failed; see the compiler error output for details.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 1s
+1 actionable task: 1 executed
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hbash-3.2$ gradle run --args="241"
+
+[1A[1m<[0;1m-------------> 0% CONFIGURING [0s][m[35D[1B
+[2A[1m<[0;1m-------------> 0% EXECUTING [0s][m[0K[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello 241!
+[32;1mBUILD SUCCESSFUL[0;39m in 1s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hbash-3.2$ git add src/main/java/lab1/Hello.javagit commit -m "Hello now prints c ommand line arg"git push
+error: unknown switch `m'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    --renormalize         renormalize EOL of tracked files (implies -u)
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --chmod <(+/-)x>      override the executable bit of the listed files
+
+bash-3.2$ git add src/main/java/lab1/Hello.java
+bash-3.2$ git commit -m "hello now [K[Kw prints command line arg"
+[master df38d6f] hello now prints command line arg
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+bash-3.2$ git push
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 497 bytes | 497.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/CSCI241Spring2019/lab-1-gillianlovejoy
+   07fe9b2..df38d6f  master -> master
+bash-3.2$ exit
+exit
+
+Script done on Wed Apr 17 21:00:20 2019
